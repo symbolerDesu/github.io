@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ポートフォリオ</title>
+  <style>
+    /* 共通のスタイル */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    header {
+      background-color: rgba(86, 58, 97, 0.699);
+      color: #fff;
+      padding: 20px;
+    }
+
+    header img {
+      max-width: 200px;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: rgb(148, 55, 55);
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      background-color: #555;
+      margin-right: 10px;
+    }
+
+    nav a:hover {
+      background-color: #777;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #ab83b4;
+      padding: 20px;
+    }
+
+    footer ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    footer li {
+      margin-right: 10px;
+    }
+
+    footer a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    /* PC向けスタイル */
+    @media (min-width: 768px) {
+      nav {
+        display: inline-block; /* 横並びにする */
+      }
+
+      main {
+        width: 960px;
+        margin: 0 auto; /* コンテンツをセンター寄せ */
+      }
+
+      .projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .project {
+        width: calc(33.33% - 10px);
+        margin-bottom: 20px;
+      }
+    }
+
+    /* スマートフォン向けスタイル */
+    @media (max-width: 767px) {
+      header img {
+        max-width: 100%; /* ロゴをスマートフォン幅に合わせる */
+      }
+
+      nav {
+        display: block; /* 縦積みにする */
+      }
+
+      nav a {
+        margin-bottom: 10px;
+        display: block;
+      }
+
+      main {
+        padding: 10px;
+      }
+
+      .projects {
+        display: block;
+      }
+
+      .project {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>2022~2023 ポートフォリオ</h1>
+    
+    
+  </header>
+
+  <main>
+    <div class="projects">
+      <div class="project">
+        <h3>よくはねるアイツ</h3>
+        <a href="project1.html">
+          <img src="0001.png" width="315px"　height="200px">
+          <div class="project-description">
+            
+            
+          </div>
+        </a>
+      </div>
+      <div class="project">
+        <h3>劇場版ポリテク</h3>
+        <a href="project2.html">
+          <img src="IMG_9900_2.jpg" width="315px"　height="200px">
+          <div class="project-description">
+            
+            
+          </div>
+        </a>
+      </div>
+      <div class="project">
+        <h3>怪奇蜘蛛男</h3>
+        <a href="project3.html">
+          <img src="loop001.png" width="315px"　height="200px">
+          <div class="project-description">
+            
+            
+          </div>
+        </a>
+      </div>
+      <div class="project">
+        <h3>プロトタイプ</h3>
+        <a href="https://www.figma.com/proto/vm3WRTo5WzWDTAyjO8RCKJ/Vol.05_2224055?type=design&node-id=2-79&scaling=scale-down&page-id=0%3A1&starting-point-node-id=2%3A79">
+          <img src="0002.png" width="315px"　height="200px">
+          <div class="project-description">
+            
+            
+          </div>
+        </a>
+      </div>
+      <div class="project">
+        <h3>推しフォト</h3>
+        <a href="project5.html">
+          <img src="IMG_5987.JPG" width="320px" height="230px">
+          <div class="project-description">
+            
+           
+          </div>
+        </a>
+      </div>
+      <div class="project">
+        <h3>逆転裁判　ロゴ
+        </h3>
+        <a href="project6.html">
+          <img src="gyakuten.jpg" width="315px" height="250　px">
+          <div class="project-description">
+            
+            
+          </div>
+        </a>
+      </div>
+    </div>
+  </main>
+  
+
+  <footer>
+
+    <p>© 2023おれ</p>
+  </footer>
+</body>
+</html>
